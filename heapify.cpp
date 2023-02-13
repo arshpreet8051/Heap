@@ -10,10 +10,10 @@ void heapify(int arr [],int n,int i){
     int left = 2*i;
     int right = 2*i+1;
 
-    if(left < n and arr[left] > arr[target]){
+    if(left <= n and arr[left] > arr[target]){
         target = left;
     }
-    if(right < n and arr[right] > arr[target]){
+    if(right <= n and arr[right] > arr[target]){
         target = right;
     }
 
@@ -27,8 +27,8 @@ void heapify(int arr [],int n,int i){
 
 int main(){
 
-int arr[6] = {-1,53,52,50,57,56};
-int n = 6;
+int arr[10] = {-1,53,52,50,57,56,12,2333,12,45};
+int n = 10;
 for(int i = n/2;i>0;i--){
     heapify(arr,n,i);
 }
