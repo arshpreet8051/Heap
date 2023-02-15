@@ -7,3 +7,4 @@
 4) K-th element in a 2-D array
 5) Is Tree a Heap **O(N) _for node counting_ + O(N) _for CBT_ + O(N) _for max heap property_**
 6) Merge 2 max heaps  **O(N*logn) _Heapify_**
+7) Minimum cost of ropes **O(N) _for loop_ * O(log.N) _for insertion in heap_ = O(N*log.N)**
