@@ -6,3 +6,4 @@
 3) HeapSort Algo **_O(N*logn)_**
 4) K-th element in a 2-D array
 5) Is Tree a Heap **O(N) _for node counting_ + O(N) _for CBT_ + O(N) _for max heap property_**
+6) Merge 2 max heaps  **O(N*logn) _Heapify_**
