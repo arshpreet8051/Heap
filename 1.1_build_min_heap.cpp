@@ -39,3 +39,24 @@ vector<int> build_min_heap(vector<int> arr){
 
     return arr;
 }
+
+// Another approach using priority queue
+// TLE
+
+vector<int> buildMinHeap(vector<int> &arr)
+{
+    priority_queue<int,vector<int>,greater<int>>pq;
+
+    for(int i = 0;i<arr.size();i++){
+        pq.push(arr[i]);
+    }
+
+    vector<int> ans;
+
+    for(int i = 0;i<arr.size();i++){
+        ans.push_back(pq.top());
+        pq.pop();
+    }
+
+    return ans;
+}
