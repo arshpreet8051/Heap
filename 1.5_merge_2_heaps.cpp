@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Simply Based on Heapify algorithm
+
 class Solution{
     public:
     void heapify(vector<int>&a,int n,int i){
